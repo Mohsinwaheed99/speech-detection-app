@@ -1,69 +1,44 @@
-🎤 VoiceSuite - Advanced Speech Recognition App
-A modern, interactive web application that demonstrates the power of speech recognition and voice-controlled interfaces. Built with cutting-edge web technologies including TensorFlow.js, p5.js, and React.
+# Voice Detection App
 
-https://img.shields.io/badge/Demo-Live-brightgreen https://img.shields.io/badge/React-18.2.0-blue https://img.shields.io/badge/TensorFlow.js-4.15.0-orange https://img.shields.io/badge/Vite-5.0.0-purple https://img.shields.io/badge/License-MIT-green
+A modern React application for real-time voice recognition and speech-to-text functionality with interactive audio visualization.
 
-🌐 Live Demo
-https://voice-detection-app.netlify.app/
+## 🌐 Live Demo
 
-https://via.placeholder.com/800x400/1F2937/FFFFFF?text=VoiceSuite+-+Advanced+Speech+Recognition
+[**Live Demo - https://voice-detection-app.netlify.app/**](https://voice-detection-app.netlify.app/)
 
-✨ Features
-🎯 Voice Detection
-Real-time Speech Recognition - Convert speech to text instantly
+## Features
 
-Interactive Audio Visualization - Multiple visualization modes using p5.js
+- Real-time Voice Detection
+- Voice Verification System  
+- Voice-Controlled Forms
+- Interactive Audio Visualization
+- Multi-language Support
+- Dark/Light Theme
+- Responsive Design
 
-Multi-language Support - Support for English, Spanish, French, German, and more
+## Tech Stack
 
-Confidence Scoring - Real-time confidence levels for speech recognition
+- React
+- TensorFlow.js
+- p5.js
+- Vite
+- Tailwind CSS
+- Web Speech API
 
-Live Transcript - See both interim and final transcription results
+## Installation
 
-🎙️ Voice Verification
-Speaker Identification - Register and verify voices using AI
+```bash
+# Clone the repository
+git clone https://github.com/Mohsinwaheed99/speech-detection-app.git
 
-Similarity Scoring - Advanced voice matching algorithms
+# Navigate to project directory
+cd speech-detection-app
 
-Verification History - Track past verification attempts
+# Install dependencies
+npm install
 
-TensorFlow.js Integration - Machine learning-powered voice analysis
+# Start development server
+npm run dev
 
-📝 Voice-Controlled Form
-Hands-free Form Filling - Populate form fields using voice commands
-
-Smart Field Detection - Automatic field focus and voice input
-
-Voice Command History - Review and reuse previous commands
-
-🎨 User Experience
-Dark/Light Theme - Toggle between themes for comfortable usage
-
-Responsive Design - Works perfectly on desktop and mobile devices
-
-Real-time Metrics - Volume levels, confidence scores, and performance metrics
-
-Command History - Keep track of all voice interactions
-
-🚀 Tech Stack
-Frontend Framework: React 18.2.0
-
-Build Tool: Vite 5.0.0
-
-Machine Learning: TensorFlow.js
-
-Audio Visualization: p5.js
-
-Styling: Tailwind CSS
-
-Routing: React Router DOM
-
-Speech Recognition: Web Speech API
-
-Deployment: Netlify
-
-📦 Installation
-Prerequisites
-Node.js (version 16 or higher)
-
-npm or yarn
+# Build for production
+npm run build
